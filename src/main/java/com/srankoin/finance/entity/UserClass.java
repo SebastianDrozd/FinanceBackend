@@ -29,6 +29,7 @@ public class UserClass implements UserDetails {
     private String email;
 
     private boolean isAccountSetup;
+    private String publicAccessToken;
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
